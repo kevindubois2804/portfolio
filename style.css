@@ -185,9 +185,10 @@ header>nav>i.fa-bars {
 
     header>nav.open {
         position: fixed;
+        left: 0;
         width: 100%;
         flex-direction: column;
-        background: lightgrey;
+        background: rgb(211, 211, 211, 0.5);
     }
 
     header>nav.open>ul.liste {
